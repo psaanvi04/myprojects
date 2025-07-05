@@ -72,7 +72,7 @@ def main():
                 print("It's a tie!")
                 break
     except KeyboardInterrupt:
-        print("\nGame interrupted. Exiting...")
+        print("\nGame interrupted. Exiting Now...")
     except Exception as e:
         print(f"An error occurred: {e}")  
 
