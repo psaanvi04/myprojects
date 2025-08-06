@@ -5,22 +5,6 @@
 # Date: 5th July 2025                            #           
 ##################################################
 
-print("Welcome to Tic-Tac-Toe by Saanvi Patel!")
-x = input("Would you like to read the instructions? (Y/N): ")
-
-if x == "N":
-    print("No problem! Let's start the game without instructions.")
-elif x == "Y": 
-    print("\nINSTRUCTIONS:")
-    print("-> When it's your turn, type your move in any untaken move.")
-    print("-> For example, to choose the top-left square, enter the number corresponded i.e: 1\n")
-
-    print("\nYou can also play on a larger board!")
-    print("Choose a size between 3 and 9 to make an N x N board.")
-
-    print("\nLet's begin! Player X will go first.")
-
-
 from random import randrange
 class Color:
     RED = '\033[91m'
